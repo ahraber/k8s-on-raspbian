@@ -73,7 +73,7 @@ This installs 17.12 or newer.
 
 ```
 $ curl -sSL get.docker.com | sh && \
-sudo usermod pi -aG docker
+sudo usermod pi -aG docker && \
 newgrp docker
 ```
 
